@@ -1,14 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'MSPゴシック';
-    src: url(../fonts/msgothic.ttc);
-}
-
 body {
-    width: 980px;
-    height: 980px;
-    font-family: 'MSPゴシック';
     margin: auto;
     padding: 0px;
     background-color: #007e7e;

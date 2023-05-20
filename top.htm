@@ -3,32 +3,63 @@
 <meta charset="UTF-8">
 
 <head>
+    <link href="/css/common.css" rel="stylesheet">
     <script type="text/javascript" src="/js/mouse_effect.js"></script>
 </head>
 
 <body background="img/common/b056.jpg">
     <br><br>
     <center>
-        <img src="img/top/title_img.png" alt="トップ画像" width="400px">
-        <table bgcolor="white" width="100%">
-            <tr>
-                <td>
-                    <marquee>
-                        <h3>こんにちは！ ざわたくのホームページへようこそ！</h3>
-                    </marquee>
-                </td>
-            </tr>
-        </table>
-        <table bgcolor="lightblue">
-            <tr>
-                <td>
-                    <h4>Sorry, This page is JAPANESE ONLY!</h4>
-                </td>
-            </tr>
-        </table>
+
+        <div class="top_img">
+            <img src="img/top/title_img.png" alt="トップ画像" width="400px">
+        </div>
+
+        <div class="welcome">
+            <table bgcolor="white" width="100%">
+                <tr>
+                    <td>
+                        <marquee>
+                            <h3>こんにちは！ ざわたくのホームページへようこそ！</h3>
+                        </marquee>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sorry">
+            <table bgcolor="lightblue">
+                <tr>
+                    <td>
+                        <h4>Sorry, This page is JAPANESE ONLY!</h4>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="access_count">
+            <!--アクセスカウンターはここから-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>あなたは</td>
+                    <td align="center"><img src="http://www.rays-counter.com/d1265_f6_022/646946e62229f/"
+                            alt="アクセスカウンター" border="0"></a></td>
+                    <td>人目のお客様です！</td>
+                </tr>
+            </table>
+            <!--ここまで-->
+        </div>
+
         <br><br>
-        <u><h1>新着情報</h1></u>
-        <ul><a href="button_test.htm">昔のWindowsっぽいボタンのテストページ</a>を追加しました！</ul>
+
+        <div class="new">
+            <!--新着情報はここから-->
+            <u>
+                <h1>新着情報</h1>
+            </u>
+            <ul><a href="button_test.htm">昔のWindowsっぽいボタンのテストページ</a>を追加しました！</ul>
+            <!--ここまで-->
+        </div>
     </center>
 
 </body>
