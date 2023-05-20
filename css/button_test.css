@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MSPゴシック';
+    src: url(../fonts/msgothic.ttc);
+}
+
+body {
+    width: 980px;
+    height: 980px;
+    font-family: 'MSPゴシック';
+    margin: auto;
+    padding: 0px;
+    background-color: #007e7e;
+}
+
+.button1 {
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: solid 10px;
+
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 0 2px;
+
+    background-color: #C0C0C0;
+    border-color: #D9D9D9 #7F7F7F #7F7F7F #D9D9D9;
+}
+
+.button1:hover {
+    background-color: #C0C0C0;
+    border-color: #7f7f7f;
+}
+
+
+.button2 {
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: solid 3px;
+
+    text-align: center;
+    line-height: 40px;
+    box-shadow: inset -3px -3px 0px 0px #7F7F7F;
+
+    background-color: #C0C0C0;
+    border-color: #FFFFFF #000000 #000000 #FFFFFF;
+}
+
+.button2:hover {
+    box-shadow: inset 3px 3px 0px 0px #7F7F7F;
+
+    background-color: #C0C0C0;
+    border-color: #000000 #FFFFFF #FFFFFF#000000;
+}
