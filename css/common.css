@@ -4,8 +4,5 @@ body {
     width: auto;
     height: 100%;
     overflow-x: hidden;
-}
-
-.footer{
-    font-size: small;
+    -webkit-text-size-adjust: 100%;
 }
