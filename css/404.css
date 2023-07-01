@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+.content_404 {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.main_message_404 {
+    margin: 30px 0px 10px 0px;
+    font-size: 45px;
+    font-weight: 900;
+}
