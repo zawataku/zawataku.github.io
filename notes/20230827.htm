@@ -6,19 +6,47 @@
     <title>雑記の使い方</title>
     <link href="/css/common.css" rel="stylesheet">
     <link href="/css/notes.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=desert"></script>
 </head>
 
 <body background="/img/common/b056.jpg">
     <center>
         <div class="notes_title">
-            <h1>雑記の使い方</h1><h4>2023-08-27</h4>
+            <h1>雑記の使い方</h1>
+            <h4>2023-08-27</h4>
         </div>
     </center>
-        <div class="notes_content">
-            はじめまして．このホームページの管理人をしているざわたくです．<br>
-            
-
-        </div>
+    <div class="notes_content">
+        はじめまして．このホームページの管理人をしているざわたくです．<br>
+        少し前に「雑記」のページを追加したのですが，特に書くこともないので今までずっと放置していました．<br>
+        何も書かないというのもアレなので，これからは主に更新内容について詳しく書いていくページにしようかと思います．<br>
+        <br>
+        <hr width="100%" noshade>
+        <br>
+        それでは今回の更新についてです．<br>
+        先述の通り雑記を書くことにしたため，雑記内ページのテンプレートっぽいものを作りました．<br>
+        テンプレートとは言ったものの，（雰囲気で察せるとは思いますが）このホームページはhtml手打ちという昔ながらの更新方法なので，
+        イマドキの「入力するだけで簡単！」みたいなものではありませんけどね...<br>
+        需要があるかはわかりませんが，今回作ったテンプレートを記載しておきます．<br>
+        <br>
+        ↓template.htm（最後の部分はCSS書くのが面倒くさかったので&lt;br&gt;連打で...）
+        <pre class="prettyprint lang-html linenums">&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;ja&quot;&gt;&#10;&lt;meta charset=&quot;UTF-8&quot;&gt;&#10;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;!--&#12479;&#12452;&#12488;&#12523;--&gt;&lt;/title&gt;&#10;    &lt;link href=&quot;/css/common.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;    &lt;link href=&quot;/css/notes.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&lt;/head&gt;&#10;&#10;&lt;body background=&quot;/img/common/b056.jpg&quot;&gt;&#10;    &lt;center&gt;&#10;        &lt;div class=&quot;notes_title&quot;&gt;&#10;            &lt;h1&gt;&lt;!--&#12479;&#12452;&#12488;&#12523;--&gt;&lt;/h1&gt;&#10;            &lt;h4&gt;&lt;!--&#26085;&#20184;--&gt;&lt;/h4&gt;&#10;        &lt;/div&gt;&#10;    &lt;/center&gt;&#10;    &lt;div class=&quot;notes_content&quot;&gt;&#10;        &lt;!--&#26412;&#25991;--&gt;&#10;    &lt;/div&gt;&#10;    &lt;center&gt;&#10;        &lt;br&gt;&#10;        &lt;a href=&quot;/notes.htm&quot;&gt;&#12300;&#38609;&#35352;&#12301;&#12395;&#25147;&#12427;&lt;/a&gt;&#10;        &lt;br&gt;&#10;        &lt;br&gt;&#10;        &lt;br&gt;&#10;    &lt;/center&gt;&#10;&lt;/body&gt;&#10;&#10;&lt;/html&gt;</pre>
+        <br>
+        ↓common.css
+        <pre class="prettyprint lang-css linenums">@charset &quot;UTF-8&quot;;&#10;&#10;body {&#10;    width: auto;&#10;    height: 100%;&#10;    overflow-x: hidden;&#10;    -webkit-text-size-adjust: 100%;&#10;}</pre>
+        <br>
+        ↓notes.css
+        <pre class="prettyprint lang-css linenums">@charset &quot;UTF-8&quot;;&#10;&#10;.notes_title {&#10;    margin: 50px 0 50px 0;&#10;}&#10;&#10;.notes_content {&#10;    margin: 10px 150px 10px 150px;&#10;    padding: 10px;&#10;    background-color: aliceblue;&#10;    line-height: 150%;&#10;}&#10;&#10;.prettyprint ol.linenums&gt;li {&#10;    list-style-type: decimal;&#10;}&#10;&#10;td {&#10;    padding: 15px;&#10;}</pre>
+        <br>
+        ここまでコードを長々と書きましたが，<a href="https://github.com/zawataku/zawataku.github.io" target="_top">GitHub</a>にも同じソースコードが載っているので，よろしければご参照くださいね．
+    </div>
+    <center>
+        <br>
+        <a href="/notes.htm">「雑記」に戻る</a>
+        <br>
+        <br>
+        <br>
+    </center>
 </body>
 
 </html>
