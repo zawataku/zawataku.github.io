@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.xpress_title {
+    margin: 50px 0 50px 0;
+}
+
+.xpress_content {
+    margin: 10px 150px 10px 150px;
+    padding: 10px;
+    background-color: aliceblue;
+    line-height: 150%;
+}
+
+.prettyprint ol.linenums>li {
+    list-style-type: decimal;
+}
+
+td {
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
