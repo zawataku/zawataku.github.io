@@ -1,61 +1,112 @@
-<HTML>
+<!DOCTYPE html>
+<html>
 
-<HEAD>
-  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=UTF-8">
-  <TITLE>電車</TITLE>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電車</title>
 
-  <STYLE>
-    TABLE {
-      border-spacing: 5px 1.5rem;
-      border-collapse: separate;
+  <style>
+    body {
+      background-color: #ffcc99;
+      font-size: 16px;
+      padding: 20px;
     }
-  </STYLE>
+
+    h1 {
+      color: #ff3f00;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ff3f00;
+      margin: 20px auto;
+    }
+
+    a {
+      color: #ff3f00;
+      text-decoration: none;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    /* スマートフォンの幅が767px以下の場合のスタイル */
+    @media (max-width: 767px) {
+
+      table,
+      table tr,
+      table td,
+      table img {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+
+      table td {
+        padding: 10px 0;
+      }
+    }
+
+    /* PCの場合のスタイル */
+    @media (min-width: 768px) {
+      .center-content {
+        justify-content: center;
+        display: flex;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1 class="center">電車</h1>
+
+  <div class="center-content">
+    <img src="../img/train.jpg" width="372" height="237" align="bottom" border="0" naturalsizeflag="3">
+  </div>
   
-</HEAD>
+  <table class="center-content">
+    <tr>
+      <td>
+        <a href="ishikawa.html"><img src="../img/image50.gif" width="178" height="36" align="left" border="0"
+            naturalsizeflag="3"></a>
+      </td>
+      <td>
+        <strong>石川線で活躍中の7000系＆種車の東急7000系</strong><br>
+        電車を作るならまずは7000系<br>
+        難易度：★★★
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="asanogawa.html"><img src="../img/image51.gif" width="178" height="36" align="left" border="0"
+            naturalsizeflag="3"></a>
+      </td>
+      <td>
+        <strong>浅野川線で活躍中の8000系と種車の京王3000系</strong><br>
+        裾絞り車体や曲面を多用した前面など複雑な構成のため慣れてから作った方が良いかも<br>
+        難易度：★★★★★
+      </td>
+    </tr>
+  </table>
 
-<BODY BGCOLOR="#FFCC99">
+  <hr>
 
-  <H1>
-    <CENTER>
-      <FONT COLOR="#ff3f00" SIZE="+4">電車</FONT>
-    </CENTER>
-  </H1>
+  <div class="center">
+    <a href="../xpress.html">戻る</a>
+  </div>
 
-  <CENTER><IMG SRC="../img/TRAIN.JPG" WIDTH="372" HEIGHT="237" ALIGN="BOTTOM" BORDER="0" NATURALSIZEFLAG="3"></CENTER>
-  <BR>
-  <BR>
+</body>
 
-  <CENTER>
-    <TABLE>
-      <TR>
-        <TD>
-          <A HREF="ishikawa.html"><IMG SRC="../img/IMAGE50.GIF" WIDTH="178" HEIGHT="36" ALIGN="LEFT" BORDER="0"
-              NATURALSIZEFLAG="3"></A>
-        </TD>
-        <TD>
-          石川線で活躍中の7000系＆種車の東急7000系<BR>
-          電車を作るならまずは7000系<BR>
-          難易度：★★★
-        </TD>
-      </TR>
-      <TR>
-        <TD>
-          <A HREF="asanogawa.html"><IMG SRC="../img/IMAGE51.GIF" WIDTH="178" HEIGHT="36" ALIGN="LEFT" BORDER="0"
-              NATURALSIZEFLAG="3"></A>
-        </TD>
-        <TD>
-          浅野川線で活躍中の8000系と種車の京王3000系<BR>
-          裾絞り車体や曲面を多用した前面など複雑な構成のため慣れてから作った方が良いかも<BR>
-          難易度：★★★★★
-        </TD>
-      </TR>
-    </TABLE>
-  </CENTER>
-
-  <HR ALIGN=CENTER>
-
-  <CENTER><A HREF="../xpress.html">戻る</A></CENTER>
-
-</BODY>
-
-</HTML>
+</html>
