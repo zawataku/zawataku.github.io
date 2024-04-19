@@ -24,7 +24,7 @@ export default function Profile() {
                 viewport={{ once: true, amount: 0 }}
             >
                 <h1 className="text-center text-5xl font-semibold mb-10">Profile</h1>
-                <img className="size-32 rounded-full mx-auto shadow-xl" src="/img/profile/profile_icon.jpg" alt="Profile picture"></img>
+                <img className="size-32 rounded-full mx-auto shadow-xl" src="/img/profile/profile_picture.jpg" alt="Profile picture"></img>
                 <h2 className="text-center text-3xl font-semibold mt-3">ざわたく</h2>
                 <div className="flex justify-center mt-8">
                     <Link href={'https://twitter.com/zawataku_Tech'}>
