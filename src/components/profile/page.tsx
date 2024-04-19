@@ -23,9 +23,9 @@ export default function Profile() {
                 whileInView="onscreen" // 画面内に入ったらonscreen
                 viewport={{ once: true, amount: 0 }}
             >
-                <h1 className="text-center text-5xl font-semibold mb-10">Profile</h1>
+                <h1 className="text-center text-5xl font-semibold mb-10 text-slate-900">Profile</h1>
                 <img className="size-32 rounded-full mx-auto shadow-xl" src="/img/profile/profile_picture.jpg" alt="Profile picture"></img>
-                <h2 className="text-center text-3xl font-semibold mt-3">ざわたく</h2>
+                <h2 className="text-center text-3xl font-semibold mt-3 text-slate-900">ざわたく</h2>
                 <div className="flex justify-center mt-8">
                     <Link href={'https://twitter.com/zawataku_Tech'}>
                         <img src="/img/profile/X_logo.svg" alt="Xのロゴ" className="size-12 mr-6" />

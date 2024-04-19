@@ -11,7 +11,7 @@ export default function SkillProps({ skillname, progress_pct, progress, tooltip 
     return (
         <div className="relative py-4 px-6 max-w-sm mx-auto">
             <div className="flex mb-2 items-center justify-between">
-                <div className="tooltip tooltip-right" data-tip={tooltip}>
+                <div className="tooltip tooltip-right text-slate-50" data-tip={tooltip}>
                     <span className="font-semibold inline-block py-1 px-2 rounded-full text-slate-600 bg-white shadow">
                         {skillname}
                     </span>

@@ -26,8 +26,8 @@ export default function Timeline() {
             >
 
                 <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
-                    <h1 className="text-center text-5xl font-semibold pb-3">History</h1>
-                    <p className=" text-center text-lg">これまでの軌跡</p>
+                    <h1 className="text-center text-5xl font-semibold pb-3 text-slate-900">History</h1>
+                    <p className=" text-center text-lg text-slate-900">これまでの軌跡</p>
                     <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
                         <div className="w-full max-w-3xl mx-auto">
                             <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
