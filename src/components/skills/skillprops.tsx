@@ -17,7 +17,7 @@ export default function SkillProps({ skillname, progress_pct, progress, tooltip 
                     </span>
                 </div>
                 <div className="text-right">
-                    <span className="inline-block font-semibold text-slate-900">
+                    <span className="inline-block font-semibold text-slate-600">
                         {progress_pct}
                     </span>
                 </div>
