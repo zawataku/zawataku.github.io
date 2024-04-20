@@ -8,14 +8,11 @@ export default function ReturnTopButton() {
         })
     }
     return (
-        <div className="p-5 mx-auto content-center text-center py-20">
-            <button className="btn btn-wide bg-teal-300 hover:bg-teal-400 text-black font-bold" onClick={returnTop}>
-                TOPに戻る
-                <img src="/img/button/745_ar_f rotated.svg" alt="矢印" className="size-7" />
+        <div className="mx-auto content-center p-5 pb-20 pt-40 text-center">
+            <button className="mt-8 inline-flex items-center justify-center rounded-xl bg-teal-500 px-6 py-3 text-base font-medium text-slate-50 shadow-xl shadow-teal-300/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+                onClick={returnTop}>
+                ↑　トップに戻る　↑
             </button>
         </div>
     )
 }
-
-
-

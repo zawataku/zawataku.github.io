@@ -23,8 +23,8 @@ export default function Skill() {
                 whileInView="onscreen" // 画面内に入ったらonscreen
                 viewport={{ once: true, amount: 0 }}
             >
-                <h1 className="text-center text-5xl font-semibold pb-3 text-slate-900">Skills</h1>
-                <p className=" text-center mb-7 text-lg text-slate-900">独断と偏見で考える言語習熟度</p>
+                <h1 className="pb-3 text-center text-5xl font-semibold text-slate-900">Skills</h1>
+                <p className=" mb-7 text-center text-lg text-slate-900">独断と偏見で考える言語習熟度</p>
                 <SkillProps skillname="HTML" progress_pct="80%" progress="80" tooltip="かなり書き慣れてきた"></SkillProps>
                 <SkillProps skillname="CSS" progress_pct="60%" progress="60" tooltip="Tailwind大好き！"></SkillProps>
                 <SkillProps skillname="JavaScript" progress_pct="30%" progress="30" tooltip="拡張機能づくりに"></SkillProps>

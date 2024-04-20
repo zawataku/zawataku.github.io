@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="footer footer-center p-10 bg-slate-500 text-slate-200 text-base">
+        <footer className="footer footer-center bg-slate-500 p-10 text-base text-slate-200">
             <aside>
                 <p className="font-bold">
                     ざわたくの部屋　
