@@ -12,7 +12,7 @@ export default function Footer() {
                     ざわたくの部屋　
                     -Since 2023-
                 </p>
-                <p>Copyright © 2024 ざわたく All right reserved.</p>
+                <p>Copyright © 2024 ざわたく All rights reserved.</p>
             </aside>
         </footer>
     )

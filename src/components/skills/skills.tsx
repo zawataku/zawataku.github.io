@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Skill() {
     return (
-        <div className="">
+        <div className="py-24">
             <motion.div
                 variants={{
                     offscreen: { // 画面外の場合のスタイル

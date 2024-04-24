@@ -4,10 +4,11 @@ import React from "react";
 import { useEffect } from "react";
 import { motion, useScroll } from "framer-motion"
 
-import Top from "@/components/top/page";
-import Profile from "@/components/profile/page";
-import Timeline from "@/components/timeline/page";
-import Skill from "@/components/skills/page";
+import Top from "@/components/top/top";
+import Profile from "@/components/profile/profile";
+import Timeline from "@/components/timeline/timeline";
+import Product from "@/components/products/products";
+import Skill from "@/components/skills/skills";
 import ReturnTopButton from "@/components/returnbutton/return_button";
 import Footer from "@/components/footer/footer";
 
@@ -31,6 +32,7 @@ export default function Home() {
         <Top></Top>
         <Profile></Profile>
         <Timeline></Timeline>
+        <Product></Product>
         <Skill></Skill>
         <ReturnTopButton></ReturnTopButton>
         <Footer></Footer>

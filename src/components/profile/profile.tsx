@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Profile() {
     return (
-        <div className="mx-auto max-w-xl pt-32">
+        <div className="mx-auto max-w-xl py-24">
             <motion.div
                 variants={{
                     offscreen: { // 画面外の場合のスタイル
@@ -24,7 +24,7 @@ export default function Profile() {
                 viewport={{ once: true, amount: 0 }}
             >
                 <h1 className="mb-10 text-center text-5xl font-semibold text-slate-900">Profile</h1>
-                <img className="mx-auto size-32 rounded-full shadow-xl" src="/img/profile/profile_picture.jpg" alt="Profile picture"></img>
+                <img className="mx-auto size-32 rounded-full shadow-xl" src="/img/profile/profile_picture.webp" alt="Profile picture"></img>
                 <h2 className="mt-3 text-center text-3xl font-semibold text-slate-900">ざわたく</h2>
                 <div className="mt-8 flex justify-center">
                     <Link href={'https://twitter.com/zawataku_Tech'}>
