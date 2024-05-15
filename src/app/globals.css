@@ -32,7 +32,7 @@ body {
 @font-face {
   font-style: normal;
   font-family: 'GENJYUUGOTHIC';
-  src: url(/font/GENJYUUGOTHICX-BOLD.woff2) format("woff2");
+  src: url(/font/GENJYUUGOTHICX-BOLD-subset.woff2) format("woff2");
 }
 
 * {
