@@ -16,8 +16,8 @@ export default function ProductCard({ name, description, imgURL, linkURL }: Prod
             </div>
 
             <div className="mt-7">
-                <h3 className="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">{name}</h3>
-                <p className="mt-3 text-gray-800 dark:text-neutral-200">{description}</p>
+                <h3 className="text-xl font-semibold text-slate-900 group-hover:text-slate-500">{name}</h3>
+                <p className="mt-3 text-slate-900">{description}</p>
                 <p className="mt-5 inline-flex items-center gap-x-1 font-medium text-blue-600 decoration-2 group-hover:underline">Read more
                     <svg className="size-4 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
                 </p>
