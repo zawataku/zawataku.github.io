@@ -26,7 +26,7 @@ export default function Product() {
                 viewport={{ once: true, amount: 0 }}
             >
                 <h1 className="pb-3 text-center text-5xl font-semibold text-slate-900">Products</h1>
-                <p className=" mb-7 text-center text-lg text-slate-900">今までに作ったものたち</p>
+                <p className="text-center text-lg text-slate-900">今までに作ったものたち</p>
                 <div className="mx-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     <ProductCard name="zawataku CSS Framework" description="自作汎用CSSフレームワークです．大量のCSSコードを書くことなく美しいデザインのWebページを作ることができます．" imgURL="/img/products/zawatakuCSS.webp" linkURL="https://github.com/zawataku/zawataku_framework"></ProductCard>
                 </div>

@@ -35,10 +35,10 @@ export default function Profile() {
                     </Link>
                 </div>
                 <div className="mx-3 mt-5 border-t-2 border-slate-200 text-center">
-                    <p className="mt-5 text-gray-600">石川県の大学生です</p>
-                    <p className="mt-1 text-gray-600">中学生の頃プログラミングに興味を持ち，なんやかんやで今に至ります</p>
-                    <p className="mt-1 text-gray-600">普段はTypeScriptとPython書いてます</p>
-                    <p className="mt-1 text-gray-600">最近の趣味はドライブとフィルムカメラ</p>
+                    <p className="mt-5 text-slate-600">石川県の大学生です</p>
+                    <p className="mt-1 text-slate-600">中学生の頃プログラミングに興味を持ち，なんやかんやで今に至ります</p>
+                    <p className="mt-1 text-slate-600">普段はTypeScriptとPython書いてます</p>
+                    <p className="mt-1 text-slate-600">最近の趣味はドライブとフィルムカメラ</p>
                 </div>
             </motion.div>
         </div>
