@@ -12,6 +12,7 @@ import Skill from "@/components/skills/skills";
 import ReturnTopButton from "@/components/returnbutton/return_button";
 import Footer from "@/components/footer/footer";
 
+import styles from "../styles/styles.module.css"
 import bar from "../styles/bar.module.css"
 import shutter from "../styles/shutter.module.css"
 import { scrollFadeIn } from "@/components/action/fade";
@@ -25,7 +26,7 @@ export default function Home() {
 
   const { scrollYProgress } = useScroll();
   return (
-    <div>
+    <div className={styles.body}>
       <div className={shutter.shutter}></div>
       <section className="bg-slate-50">
         <motion.div className={bar.progressbar} style={{ scaleX: scrollYProgress }} />
